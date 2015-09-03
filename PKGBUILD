@@ -13,6 +13,7 @@ depends=('eclipse')
 makedepends=('git')
 provides=("$_name")
 conflicts=("$_name")
+<<<<<<< HEAD
 source=("${pkgname}::git+https://github.com/$_gitname/${_gitname}.git#branch=develop")
 md5sums=('SKIP')
 
